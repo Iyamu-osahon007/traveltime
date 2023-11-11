@@ -1,0 +1,269 @@
+
+/* css done by Jean Herve Donchi Chaungueu*/ 
+
+:root{
+    --main-background: #3dc9f5;
+    --ad-background: #f5c23d;
+    --white: #fff;
+    --main-font: #1e1e1e;
+    --sub-font:#5e5e5e;
+    --footer-background: #012530;
+    --hebrides-background: #f8f8f8;
+}
+
+*{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    margin: 0;
+}
+
+/* Nav bar */
+nav{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    background-color: var(--main-background);
+    width: 100%;
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem;
+    width: 100%;  
+}
+#nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    line-height: 14px;
+    color: var(--white);
+    &:hover{
+        color: var(--footer-background);
+    }
+}
+#nav .logo{
+    font-size: 1.3em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 0.4em;
+    align-items: center;
+    margin-right: 30px;
+    text-decoration: none;
+    color: var(--white);
+}
+#nav .logo img{
+    width: 17%;
+}
+
+/* Nav bar ends*/
+
+/* Main content */
+main{
+    margin-top: 4em;
+}
+
+#main-image{
+    background-image: url(./TravelTimeImages/TravelTimeImages/main.jpg);
+    width: 100%;
+    height: 35em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    background-color: var(--ad-background);
+    padding: 0.4em 0;
+    text-align: center;
+    color: var(--white);
+}
+#main-content{
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    color: var(--white);
+    margin: auto 0;
+    height: 80%;
+}
+#main-content h1{
+    font-size: 2.8em
+}
+#main-content p{
+    font-size: 1em;
+    width: 45%;
+    margin: 5% auto;
+    line-height: 2em;
+}
+#main-content button{
+    background-color: var(--main-background);
+    border: none;
+    padding: 1.5%;
+    border-radius: 0.2em;
+    font-size: 1.2em;
+    color: var(--white)
+}
+
+/* Main content ends here */
+
+/* All you need to know section*/
+#middle{
+    background-color: var(--white);
+    text-align: center;
+}
+#tour{
+    margin: 4.5em auto;
+}
+#tour h1{
+    font-size: 3em;
+    color: var(--main-font);
+}
+#tour-text{
+    color: var(--sub-font);
+    width: 50%;
+    line-height: 2em;
+    font-size: 1em;
+    margin: 0 auto;
+}
+#images{
+    margin:5% auto;
+    display: flex;
+    flex-wrap: nowrap;
+    /*must be set to wrap on phone screen*/
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    gap: 1em;
+}
+#images div{
+    width: fit-content;
+}
+#images div p{
+    width: 70%;
+    line-height: 1.5em;
+    margin: 0 auto;
+    font-size: 0.9em;
+    color: var(--sub-font);
+}
+/* All you need to know section ends here*/
+
+/*The lovely Hebrides section*/
+#buttom{
+    background-color: var(--hebrides-background);
+    padding: 0.7em 0;
+}
+#buttom-content{
+    margin: 5%;
+}
+#buttom-content h1{
+    font-size: 3em;
+    text-align: center;
+    color: var(--main-font);
+    margin-bottom: 2em;
+}
+#buttom-container{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: nowrap;
+    /* set to wrap on phone*/
+    justify-content: center;
+}
+#buttom-text{
+    width: 60%;
+    font-size: 0.95em;
+    line-height: 1.5em;
+    color: var(--sub-font);
+}
+#hebrides{
+    width: 60%;
+    text-align: center;
+}
+#hebrides img{
+    width: 50%;
+}
+#hebrides p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    color: var(--sub-font);
+}
+/*end of section*/
+
+/*footer*/
+footer{
+    padding: 4% 10%;
+    color: white;
+    background-color: var(--footer-background);
+}
+#foot{
+    display: flex;
+    justify-content: center;
+}
+#foot div{
+    width: 40%;
+    margin: 0 3%;
+}
+#foot div h2{
+    margin-bottom: 10%;
+}
+#contact h3{
+    margin: 5% 0; 
+} 
+address{
+    line-height: 1.5em;
+    font-size: .95em;
+}
+a{
+    text-decoration: underline;
+    line-height: 1.5em;
+    font-size: .95em;
+    color: var(--white);
+    &:hover{
+        color: var(--main-background);
+    }
+}
+#socials p{
+    line-height: 1.5em;
+    font-size: .95em;
+}
+#copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 0;
+    gap: 1em;
+}
+#copyright p{
+    text-align: center;
+}
+#copyright img{
+    width: 10%;
+}
