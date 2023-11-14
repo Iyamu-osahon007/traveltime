@@ -268,19 +268,49 @@ a{
     width: 10%;
 }
 @media only screen and (max-width: 500px) {
-    #buttom-container-phone{
+    /*Hebrides section*/
+    #buttom-content{
+        padding: 0;
+    }
+    #buttom-container{
         margin-top: 2%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }   
+    #buttom-text{
+        width: fit-content;
+    }
+    #hebrides{
+        width: fit-content;
+        &>img{
+            margin: 2em 0;
+            width: 80%;
+        }
+        &>p{
+            width: fit-content;
+        }
+    }
+    /*End of section*/
+
+    /* Start of middle Section*/
+    #tour-text{
+        width: 90%;
+    }
     #images{
         margin:5% auto;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        width: 80%;
+        width: 100%;
         gap: 1em;
     }
+    #castle, #lake, #highlands{
+        &>img{
+            width:  80%;        
+        }
+    }
+    /*End of Section*/
+
 }
