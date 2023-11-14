@@ -267,3 +267,20 @@ a{
 #copyright img{
     width: 10%;
 }
+@media only screen and (max-width: 500px) {
+    #buttom-container-phone{
+        margin-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }   
+    #images{
+        margin:5% auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        gap: 1em;
+    }
+}
