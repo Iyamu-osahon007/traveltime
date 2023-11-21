@@ -267,7 +267,7 @@ a{
 #copyright img{
     width: 10%;
 }
-/* @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 
     #buttom-content{
         padding: 0;
@@ -310,6 +310,4 @@ a{
             width:  80%;        
         }
     }
-    
-
-} */
+}
