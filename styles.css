@@ -267,8 +267,8 @@ a{
 #copyright img{
     width: 10%;
 }
-@media only screen and (max-width: 500px) {
-    /*Hebrides section*/
+/* @media only screen and (max-width: 500px) {
+
     #buttom-content{
         padding: 0;
     }
@@ -291,9 +291,8 @@ a{
             width: fit-content;
         }
     }
-    /*End of section*/
 
-    /* Start of middle Section*/
+    
     #tour-text{
         width: 90%;
     }
@@ -311,6 +310,6 @@ a{
             width:  80%;        
         }
     }
-    /*End of Section*/
+    
 
-}
+} */
