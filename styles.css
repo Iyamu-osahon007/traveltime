@@ -1,29 +1,28 @@
+/* css done by Jean Herve Donchi Chaungueu*/
 
-/* css done by Jean Herve Donchi Chaungueu*/ 
-
-:root{
+:root {
     --main-background: #3dc9f5;
     --ad-background: #f5c23d;
     --white: #fff;
     --main-font: #1e1e1e;
-    --sub-font:#5e5e5e;
+    --sub-font: #5e5e5e;
     --footer-background: #012530;
     --hebrides-background: #f8f8f8;
 }
 
-*{
+* {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
     margin: 0;
 }
 
-body{
+body {
     position: relative;
     margin: 0;
 }
 
 /* Nav bar */
-nav{
+nav {
     position: fixed;
     z-index: 2;
     top: 0;
@@ -33,18 +32,20 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
 }
-#nav{
+
+#nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 0rem 3rem;
-    width: 100%;  
+    width: 100%;
 }
-#nav ul{
+
+#nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -52,44 +53,49 @@ nav{
     flex-direction: row;
     gap: 2em;
 }
-li{
+
+li {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-li a{
+
+li a {
     text-decoration: none;
     font-size: 0.9em;
     font-weight: bold;
-    line-height: 14px;
+    line-height: 4;
     color: var(--white);
-    &:hover{
+
+    &:hover {
         color: var(--footer-background);
     }
 }
-#nav .logo{
+
+#nav .logo {
+    width: 15%;
     font-size: 1.3em;
     font-weight: bold;
     display: flex;
     flex-direction: row;
     gap: 0.4em;
     align-items: center;
-    margin-right: 30px;
     text-decoration: none;
     color: var(--white);
 }
-#nav .logo img{
+
+#nav .logo img {
     width: 17%;
 }
 
 /* Nav bar ends*/
 
 /* Main content */
-main{
+main {
     margin-top: 4em;
 }
 
-#main-image{
+#main-image {
     background-image: url(./TravelTimeImages/TravelTimeImages/main.jpg);
     width: 100%;
     height: 35em;
@@ -99,13 +105,15 @@ main{
     display: flex;
     flex-direction: column;
 }
-h4{
+
+h4 {
     background-color: var(--ad-background);
     padding: 0.4em 0;
     text-align: center;
     color: var(--white);
 }
-#main-content{
+
+#main-content {
     text-align: center;
     width: 100%;
     height: fit-content;
@@ -113,16 +121,19 @@ h4{
     margin: auto 0;
     height: 80%;
 }
-#main-content h1{
+
+#main-content h1 {
     font-size: 2.8em
 }
-#main-content p{
+
+#main-content p {
     font-size: 1em;
     width: 45%;
     margin: 5% auto;
     line-height: 2em;
 }
-#main-content button{
+
+#main-content button {
     background-color: var(--main-background);
     border: none;
     padding: 1.5%;
@@ -134,26 +145,30 @@ h4{
 /* Main content ends here */
 
 /* All you need to know section*/
-#middle{
+#middle {
     background-color: var(--white);
     text-align: center;
 }
-#tour{
+
+#tour {
     margin: 4.5em auto;
 }
-#tour h1{
+
+#tour h1 {
     font-size: 3em;
     color: var(--main-font);
 }
-#tour-text{
+
+#tour-text {
     color: var(--sub-font);
     width: 50%;
     line-height: 2em;
     font-size: 1em;
     margin: 0 auto;
 }
-#images{
-    margin:5% auto;
+
+#images {
+    margin: 5% auto;
     display: flex;
     flex-wrap: nowrap;
     /*must be set to wrap on phone screen*/
@@ -162,152 +177,413 @@ h4{
     width: 80%;
     gap: 1em;
 }
-#images div{
+
+#images div {
     width: fit-content;
 }
-#images div p{
+
+#images div p {
     width: 70%;
     line-height: 1.5em;
     margin: 0 auto;
     font-size: 0.9em;
     color: var(--sub-font);
 }
+
 /* All you need to know section ends here*/
 
 /*The lovely Hebrides section*/
-#buttom{
+#buttom {
     background-color: var(--hebrides-background);
     padding: 0.7em 0;
 }
-#buttom-content{
+
+#buttom-content {
     margin: 5%;
 }
-#buttom-content h1{
+
+#buttom-content h1 {
     font-size: 3em;
     text-align: center;
     color: var(--main-font);
     margin-bottom: 2em;
 }
-#buttom-container{
+
+#buttom-container {
     margin-top: 2%;
     display: flex;
     flex-wrap: nowrap;
     /* set to wrap on phone*/
     justify-content: center;
 }
-#buttom-text{
+
+#buttom-text {
     width: 60%;
     font-size: 0.95em;
     line-height: 1.5em;
     color: var(--sub-font);
 }
-#hebrides{
+
+#hebrides {
     width: 60%;
     text-align: center;
 }
-#hebrides img{
+
+#hebrides img {
     width: 50%;
 }
-#hebrides p{
+
+#hebrides p {
     width: 50%;
     margin: 0 auto;
     font-size: 0.9em;
     line-height: 1.5em;
     color: var(--sub-font);
 }
+
 /*end of section*/
 
 /*footer*/
-footer{
+footer {
     padding: 4% 10%;
     color: white;
     background-color: var(--footer-background);
 }
-#foot{
+
+#foot {
     display: flex;
     justify-content: center;
 }
-#foot div{
+
+#foot div {
     width: 40%;
     margin: 0 3%;
 }
-#foot div h2{
+
+#foot div h2 {
     margin-bottom: 10%;
 }
-#contact h3{
-    margin: 5% 0; 
-} 
-address{
+
+#contact h3 {
+    margin: 5% 0;
+}
+
+address {
     line-height: 1.5em;
     font-size: .95em;
 }
-a{
+
+a {
     text-decoration: underline;
     line-height: 1.5em;
     font-size: .95em;
     color: var(--white);
-    &:hover{
+
+    &:hover {
         color: var(--main-background);
     }
 }
-#socials p{
+
+#socials p {
     line-height: 1.5em;
     font-size: .95em;
 }
-#copyright{
+
+#copyright {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 2% 0;
     gap: 1em;
 }
-#copyright p{
+
+#copyright p {
     text-align: center;
 }
-#copyright img{
+
+#copyright img {
     width: 10%;
 }
-@media only screen and (max-width: 500px) {
 
-    #buttom-content{
-        padding: 0;
+@media only screen and (min-width:1em) and (max-width:35em) {
+
+    /*Phone*/
+    #nav ul {
+        gap: 0.1em;
     }
-    #buttom-container{
+
+    nav {
+        height: 10em;
+        font-size: 0.8em;
+    }
+
+    #nav {
+        flex-direction: column;
+    }
+
+    #nav ul {
+        flex-direction: column;
+    }
+
+    li a {
+        line-height: 1.5;
+    }
+
+    #main-image h4 {
+        margin-top: 5em;
+        line-height: 1.5em;
+        font-size: 0.8em;
+    }
+
+    #main-content {
+        margin-top: 20%;
+
+        &>h1 {
+            font-size: 1.5em;
+        }
+
+        &>p {
+            font-size: 0.8em;
+        }
+
+        &>a {
+            padding: 2%;
+        }
+    }
+
+    #main-content button {
+        padding: 5%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #hebrides h1,
+    #middle h1,
+    #buttom-content h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.7em;
+    }
+
+    #hebrides p,
+    #middle p {
+        font-size: 0.7em;
+    }
+
+    #buttom-content {
+        padding: 1;
+    }
+
+    #buttom-container {
         margin-top: 2%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-    }   
-    #buttom-text{
+    }
+
+    #buttom-text {
         width: fit-content;
     }
-    #hebrides{
+
+    #hebrides {
         width: fit-content;
-        &>img{
+
+        &>img {
             margin: 2em 0;
             width: 80%;
         }
-        &>p{
+
+        &>p {
             width: fit-content;
         }
     }
 
-    
-    #tour-text{
+    #tour-text {
         width: 90%;
     }
-    #images{
-        margin:5% auto;
+
+    #images {
+        flex-wrap: wrap;
+    }
+
+    #castle,
+    #lake,
+    #highlands {
+        &>img {
+            width: 80%;
+        }
+    }
+
+    #foot {
+        flex-direction: column;
+    }
+
+    #foot div {
+        margin: 5% 0;
+        font-size: 0.7em;
+    }
+
+    #copyright {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 2% 0;
+        gap: 1em;
+
+        &>img {
+            width: 30%;
+        }
+    }
+    #nav .logo {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:35.001em) and (max-width:56.4376em) {
+
+    /*For Tablets*/
+    #nav ul {
+        gap: 0.1em;
+    }
+
+    nav {
+        height: 10em;
+        font-size: 0.8em;
+    }
+
+    #nav {
+        flex-direction: column;
+    }
+
+    #nav .logo {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #nav ul {
+        flex-direction: column;
+    }
+
+    li a {
+        line-height: 1.5;
+    }
+
+    #main-image h4 {
+        margin-top: 5em;
+        line-height: 1.5em;
+        font-size: 0.8em;
+    }
+
+    #main-content {
+        margin-top: 20%;
+
+        &>h1 {
+            font-size: 2em;
+        }
+
+        &>p {
+            font-size: 0.8em;
+        }
+    }
+
+    #main-content button {
+        padding: 2%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #hebrides h1,
+    #middle h1,
+    #buttom-content h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    #hebrides p,
+    #middle p {
+        font-size: 0.9em;
+    }
+
+    #buttom-content {
+        padding: 1;
+    }
+
+    #buttom-container {
+        margin-top: 2%;
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
         justify-content: center;
-        width: 100%;
-        gap: 1em;
     }
-    #castle, #lake, #highlands{
-        &>img{
-            width:  80%;        
+
+    #buttom-text {
+        width: fit-content;
+    }
+
+    #hebrides {
+        width: fit-content;
+
+        &>img {
+            margin: 2em 0;
+            width: 80%;
         }
+
+        &>p {
+            width: fit-content;
+        }
+    }
+
+    #tour-text {
+        width: 90%;
+    }
+
+    #images {
+        flex-wrap: wrap;
+    }
+
+    #castle,
+    #lake,
+    #highlands {
+        &>img {
+            width: 80%;
+        }
+    }
+
+    #foot {
+        flex-direction: column;
+    }
+
+    #foot div {
+        margin: 5% 0;
+        font-size: 0.9em;
+    }
+
+    #copyright {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 2% 0;
+        gap: 1em;
+
+        &>img {
+            width: 30%;
+        }
+    }
+}
+
+@media only screen and (min-width:56.4376em) and (max-width:67.4375em) {
+    #images {
+        flex-direction: column;
+    }
+    #nav .logo{
+        width: 30%;
     }
 }
