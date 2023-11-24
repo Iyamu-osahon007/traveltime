@@ -96,7 +96,7 @@ main {
 }
 
 #main-image {
-    background-image: url(./TravelTimeImages/TravelTimeImages/main.jpg);
+    background-image: url(TravelTimeImages/TravelTimeImages/main.jpg);
     width: 100%;
     height: 35em;
     background-position: center;
