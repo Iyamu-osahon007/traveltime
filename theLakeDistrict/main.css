@@ -14,16 +14,16 @@ h1{
 #content{
     width: 90%;
     margin: 0 auto;
-    display: flex;
+    display: grid;
 }
 #description{
     width: 70%;
 }
 #first{
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5%;
     margin: 4% 0;
-    justify-content: space-around;
 }
 #itinerary{
     width: 30%;
@@ -58,11 +58,10 @@ p{
 
 @media only screen and (min-width:1em) and (max-width:35em) {
     #section{
-        height: 12vh;
-    }
+        height: 3vh;
+    } 
     #content{
-        flex-direction: column;
-        flex-wrap: wrap;
+        grid-template-columns: auto;
     }
     p{
         font-size: 0.8em;
@@ -71,7 +70,7 @@ p{
         width: 100%;
     }
     #first{
-        flex-direction: column;
+        grid-template-columns: auto;
     }
     #itinerary{
         margin: 10% 0 10% 0;
@@ -81,18 +80,14 @@ p{
     #paragraph{
         width: 95%;
     }
-    #nav .logo{
-        width: 100%;
-    }
 }
 
 @media only screen and (min-width:35.001em) and (max-width:56.4376em) {
     #section{
-        height: 15vh;
-    }
+        height: 5vh;
+    }   
     #content{
-        flex-direction: column;
-        flex-wrap: wrap;
+        grid-template-columns: auto;
     }
     p{
         font-size: 1em;
@@ -101,7 +96,7 @@ p{
         width: 100%;
     }
     #first{
-        flex-direction: column;
+        grid-template-columns: auto;
     }
     #itinerary{
         margin: 10% auto 10% auto;
@@ -111,25 +106,17 @@ p{
     #paragraph{
         width: 95%;
     }
-    #nav .logo{
-        width: 30%;
-    }
 }
 
 @media only screen and (min-width:56.4376em) and (max-width:86.4376em) {
-
     #content{
-        flex-direction: column;
-        flex-wrap: wrap;
+        grid-template-columns: auto;
     }
     p{
         font-size: 1.1em;
     }
     #description{
         width: 100%;
-    }
-    #first{
-        justify-content: space-around;
     }
     #itinerary{
         margin: 10% auto 10% auto;
