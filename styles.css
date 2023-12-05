@@ -77,23 +77,19 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
 }
-
 h4 {
     background-color: var(--ad-background);
     padding: 0.4em 0;
     text-align: center;
     color: var(--white);
 }
-
 #main-content {
     text-align: center;
     width: 100%;
     height: fit-content;
     color: var(--white);
-    margin: auto 0;
+    margin: 5% 0;
     height: 80%;
 }
 
@@ -221,8 +217,8 @@ footer {
 }
 
 #foot {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #foot div {
@@ -260,9 +256,8 @@ a {
 }
 
 #copyright {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     margin: 2% 0;
     gap: 1em;
 }
@@ -272,7 +267,7 @@ a {
 }
 
 #copyright img {
-    width: 10%;
+    width: 20%;
 }
 
 @media only screen and (min-width:1em) and (max-width:35em) {
