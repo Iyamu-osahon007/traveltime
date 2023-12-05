@@ -343,8 +343,8 @@ a {
 
     #buttom-container {
         margin-top: 2%;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: auto auto;
         justify-content: center;
     }
 
@@ -467,8 +467,8 @@ a {
 
     #buttom-container {
         margin-top: 2%;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: auto auto;
         justify-content: center;
     }
 
