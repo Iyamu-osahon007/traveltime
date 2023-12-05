@@ -29,35 +29,20 @@ nav {
     background-color: var(--main-background);
     width: 100%;
     height: 4em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
 }
 
-#nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0rem 3rem;
-    width: 100%;
+#grid-nav-items{
+    width: 70%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-#nav ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: row;
-    gap: 2em;
-}
-
-li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 li a {
@@ -71,22 +56,10 @@ li a {
         color: var(--footer-background);
     }
 }
-
-#nav .logo {
-    width: 15%;
-    font-size: 1.3em;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    gap: 0.4em;
-    align-items: center;
-    text-decoration: none;
-    color: var(--white);
+#logo{
+    font-weight: bolder;
 }
 
-#nav .logo img {
-    width: 17%;
-}
 
 /* Nav bar ends*/
 
@@ -434,7 +407,7 @@ a {
         }
     }
     #nav .logo {
-        width: 100%;
+        width: 25px
     }
 }
 
@@ -456,7 +429,7 @@ a {
 
     #nav .logo {
         margin: 0 auto;
-        width: 100%;
+        width: 25px
     }
 
     #nav ul {
@@ -579,6 +552,6 @@ a {
         flex-direction: column;
     }
     #nav .logo{
-        width: 30%;
+        width: 25px
     }
 }
