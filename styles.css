@@ -50,16 +50,18 @@ li a {
     font-size: 0.9em;
     font-weight: bold;
     line-height: 4;
-    color: var(--white);
+    color: #fffffff5;
 
     &:hover {
         color: var(--footer-background);
     }
 }
 #logo{
+    height: fit-content;
     font-weight: bolder;
+    font-size: 1em;
+    color: var(--white);
 }
-
 
 /* Nav bar ends*/
 
