@@ -14,16 +14,16 @@ h1{
 #content{
     width: 90%;
     margin: 0 auto;
-    display: flex;
+    display: grid;
 }
 #description{
     width: 70%;
 }
 #first{
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5%;
     margin: 4% 0;
-    justify-content: space-around;
 }
 #itinerary{
     width: 30%;

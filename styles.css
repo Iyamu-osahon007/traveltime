@@ -283,24 +283,22 @@ a {
     }
 
     nav {
-        height: 10em;
         font-size: 0.8em;
+        height: fit-content;
     }
 
-    #nav {
-        flex-direction: column;
-    }
-
-    #nav ul {
-        flex-direction: column;
+    #grid-nav-items{
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: auto;
     }
 
     li a {
-        line-height: 1.5;
+        line-height:2;
     }
 
     #main-image h4 {
-        margin-top: 5em;
+        margin-top: 9em;
         line-height: 1.5em;
         font-size: 0.8em;
     }
@@ -389,27 +387,19 @@ a {
     }
 
     #foot {
-        flex-direction: column;
+        grid-template-columns: auto;
     }
 
     #foot div {
         margin: 5% 0;
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 
     #copyright {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
         margin: 2% 0;
-        gap: 1em;
-
         &>img {
-            width: 30%;
+            width: 50%;
         }
-    }
-    #nav .logo {
-        width: 25px
     }
 }
 
@@ -417,33 +407,26 @@ a {
 
     /*For Tablets*/
     #nav ul {
-        gap: 0.1em;
+        gap: 0.2em;
     }
 
     nav {
-        height: 10em;
-        font-size: 0.8em;
+        font-size: 1em;
+        height: fit-content;
     }
 
-    #nav {
-        flex-direction: column;
-    }
-
-    #nav .logo {
-        margin: 0 auto;
-        width: 25px
-    }
-
-    #nav ul {
-        flex-direction: column;
+    #grid-nav-items{
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: auto;
     }
 
     li a {
-        line-height: 1.5;
+        line-height: 1.7;
     }
 
     #main-image h4 {
-        margin-top: 5em;
+        margin-top: 9.5em;
         line-height: 1.5em;
         font-size: 0.8em;
     }
@@ -528,23 +511,18 @@ a {
     }
 
     #foot {
-        flex-direction: column;
+        grid-template-columns: auto;
     }
 
     #foot div {
         margin: 5% 0;
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     #copyright {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
         margin: 2% 0;
-        gap: 1em;
-
         &>img {
-            width: 30%;
+            width: 50%;
         }
     }
 }
@@ -552,8 +530,5 @@ a {
 @media only screen and (min-width:56.4376em) and (max-width:67.4375em) {
     #images {
         flex-direction: column;
-    }
-    #nav .logo{
-        width: 25px
     }
 }
