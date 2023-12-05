@@ -166,7 +166,7 @@ h4 {
     font-size: 1em;
     margin: 0 auto;
 }
-
+/* Grid updated by Osahon */
 #images {
     margin: 5% auto; 
     display: grid;
@@ -204,11 +204,9 @@ h4 {
     margin-bottom: 2em;
 }
 
+/* grid updated by Osahon Iyamu */
 #buttom-container {
     margin-top: 2%;
-    /* display: flex;
-    flex-wrap: nowrap; */
-    /* set to wrap on phone*/
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
