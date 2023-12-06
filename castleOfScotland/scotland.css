@@ -1,3 +1,4 @@
+
 * {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
@@ -7,11 +8,149 @@
 body {
     position: relative;
     margin: 0;
-    background-color: aqua;
+}
+
+/* main body */
+main{
+    height: 57em;
+}
+
+h2{
+    margin-top: 4em;
+    color: #f5c23d;
+}
+
+ .text1{
+    text-align: center;
+    color: #3dc9f5;
+    font-weight: bolder;
+    margin: 2em;
+}
+#maincontent{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 5em 0;
+    width: 100%;
+    /* height: 50em; */
+}
+
+.textcontent{
+    width: 100%;
+    text-align: center;
+    /* height: 100%; */
+    
+    
+}
+
+#imagecontent{
+    background-image: url(../TravelTimeImages/TravelTimeImages/Castles.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    /* height: 80vh; */
+
+}
+
+.textcontent2{
+    text-align: center;
+    margin-top: 2em;
+    line-height: 2em;
+}
+
+p i {
+    color: #3dc9f5;
+    font-weight: bold;
+}
+
+ div .listitems{
+    background-color: #3dc9f5;
+    width: 35%;
+    margin: 2em auto;
+    padding: 4em;
+    border-radius: 60%;
+   color: #012530;
+    
+    
+}
+
+ol{
+    list-style: none;
+    
+    
+}
+
+/* media Query */
+
+@media only screen and (min-width:1em) and (max-width:35em){
+
+    #maincontent{
+        display: block;
+        margin: 1em;
+    }
+
+    div .listitems{
+        width: 100%;
+        border-radius: 0;
+        padding: 0%;
+    }
+
+    h2{
+        margin-top: 6em;
+    }
+
+    
+}
+
+@media only screen and (min-width:35.001em) and (max-width:56.4376em) {
+    h2{
+        margin-top: 6em;
+    }
+
+    #maincontent{
+        display: block;
+    }
+    
+    div .listitems{
+        width: 100%;
+        padding: 2em;
+        border-radius: 0%;
+    }
+}
+    
+@media only screen and (min-width:56.4376em) and (max-width:67.4375em){
+    .textcontent2{
+        margin: 2em;
+    }
+
+    #imagecontent{
+        margin-top: 6em;
+    }
+
+    div .listitems{
+        border-radius: 0%;
+        width: 50%;
+        padding: 2em;
+    }
+    #maincontent{
+        margin: 2em 0;
+    }
+    
 }
 
 
+@media only screen and (min-width:67.438em) and (max-width:75em) {
+    #imagecontent{
+        margin-top: 3em;
+    }
 
-div #imagecastle{
-    
+    #maincontent{
+        margin: 1em 0;
+    }
+
+    div .listitems{
+        margin: 4em auto;
+        width: 50%;
+        border-radius: 50%;
+        
+    }
 }
