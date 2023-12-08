@@ -92,19 +92,20 @@ ol{
         border-radius: 0;
         padding: 0%;
         margin: 1em auto;
+        margin-top: 10em;
     }
 
     h2{
-        margin-top: 6em;
-    }
+        margin-top: 5em;
+       
 
     #imagecontent{
-        height: 40vh;
+        height: 21vh;
         /* margin-left: 2.5em; */
     }
 
     main{
-        height: 75em;
+        height: 99em;
     }
     .textcontent2{
         margin: 0;
@@ -134,7 +135,7 @@ ol{
     }
 
     main{
-        height: 85em;
+        height: 94em;
     }
 }
     
