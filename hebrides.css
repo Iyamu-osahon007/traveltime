@@ -96,7 +96,7 @@ span{
    } 
 
    main .imgpage{
-    margin-top: 15em;
+    margin-top: 20em;
     
    }
 
@@ -110,11 +110,12 @@ span{
    .itenrary{
     width: 100%;
     margin-top: 28em;
+
    }
 
    .container2{
     padding: 0;
-    margin-top: 6em;
+    margin-top: 7em;
 
    }
 }
@@ -125,11 +126,11 @@ span{
     }
 
     main .imgpage{
-        margin-top: 4em;
+        margin-top: 8em;
     }
 
     main .container{
-        height: 46vh;
+        height: 36vh;
     }
     .itenrary{
         width: 50%;
@@ -141,7 +142,7 @@ span{
     }
 
     .container2{
-        margin-top: 9em;
+        margin: 8em 0;
     }
     
 }
@@ -157,6 +158,7 @@ span{
 
     .itenrary{
         width: 50%;
+        margin: 12% auto;
     }
 
     .container2{
