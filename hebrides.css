@@ -97,14 +97,26 @@ span{
    } 
 
    main .imgpage{
-    margin-top: 4em;
+    margin-top: 15em;
+    
    }
 
    main .container{
-    height: 50vh;
+    height: 34vh;
+    display: block;
+    grid-template-rows: 1fr 1fr;
    }
+
+
    .itenrary{
     width: 100%;
+    margin-top: 28em;
+   }
+
+   .container2{
+    padding: 0;
+    margin-top: 6em;
+
    }
 }
 
@@ -118,12 +130,64 @@ span{
     }
 
     main .container{
-        height: 65vh;
+        height: 46vh;
     }
     .itenrary{
-        width: 100%;
+        width: 50%;
+        
+    }
+
+    ol{
+        margin: 0 auto;
+    }
+
+    .container2{
+        margin-top: 9em;
     }
     
+}
+
+@media only screen and (min-width: 56.4376em) and (max-width:67.4375em){
+    main .container{
+        height: 46vh;
+    }
+
+    main .imgpage{
+        margin-top: 6em;
+    }
+
+    .itenrary{
+        width: 50%;
+    }
+
+    .container2{
+        margin-top: 12em;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 67.438em ) and (max-width:80em ) {
+
+    main .container{
+        height: 52vh;
+    }
+
+    .textbox{
+        margin: 0;
+    }
+
+    .itenrary{
+        width: 50%;
+    }
+
+    h2{
+        margin-right: 11em;
+    }
+    .container2{
+        margin-top: 8em;
+    }
 }
 
 
