@@ -269,3 +269,263 @@ a {
 #copyright img {
     width: 20%;
 }
+
+@media only screen and (min-width:1em) and (max-width:35em) {
+
+    /*Phone*/
+    #nav ul {
+        gap: 0.1em;
+    }
+
+    nav {
+        font-size: 0.8em;
+        height: fit-content;
+    }
+
+    #grid-nav-items{
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    li a {
+        line-height:2;
+    }
+
+    #main-image h4 {
+        margin-top: 9em;
+        line-height: 1.5em;
+        font-size: 0.8em;
+    }
+
+    #main-content {
+        margin-top: 20%;
+
+        &>h1 {
+            font-size: 1.5em;
+        }
+
+        &>p {
+            font-size: 0.8em;
+        }
+
+        &>a {
+            padding: 2%;
+        }
+    }
+
+    #main-content button {
+        padding: 5%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #hebrides h1,
+    #middle h1,
+    #buttom-content h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.7em;
+    }
+
+    #hebrides p,
+    #middle p {
+        font-size: 0.7em;
+    }
+
+    #buttom-content {
+        padding: 1;
+    }
+
+    #buttom-container {
+        margin-top: 2%;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    #buttom-text {
+        width: fit-content;
+    }
+
+    #hebrides {
+        width: fit-content;
+
+        &>img {
+            margin: 2em 0;
+            width: 80%;
+        }
+
+        &>p {
+            width: fit-content;
+        }
+    }
+
+    #tour-text {
+        width: 90%;
+    }
+
+    #images {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    #castle,
+    #lake,
+    #highlands {
+        &>img {
+            width: 80%;
+        }
+    }
+
+    #foot {
+        grid-template-columns: auto;
+    }
+
+    #foot div {
+        margin: 5% 0;
+        font-size: 0.8em;
+    }
+
+    #copyright {
+        margin: 2% 0;
+        &>img {
+            width: 50%;
+        }
+    }
+}
+
+@media only screen and (min-width:35.001em) and (max-width:56.4376em) {
+
+    /*For Tablets*/
+    #nav ul {
+        gap: 0.2em;
+    }
+
+    nav {
+        font-size: 1em;
+        height: fit-content;
+    }
+
+    #grid-nav-items{
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    li a {
+        line-height: 1.7;
+    }
+
+    #main-image h4 {
+        margin-top: 9.5em;
+        line-height: 1.5em;
+        font-size: 0.8em;
+    }
+
+    #main-content {
+        margin-top: 20%;
+
+        &>h1 {
+            font-size: 2em;
+        }
+
+        &>p {
+            font-size: 0.8em;
+        }
+    }
+
+    #main-content button {
+        padding: 2%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #hebrides h1,
+    #middle h1,
+    #buttom-content h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    #hebrides p,
+    #middle p {
+        font-size: 0.9em;
+    }
+
+    #buttom-content {
+        padding: 1;
+    }
+
+    #buttom-container {
+        margin-top: 2%;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    #buttom-text {
+        width: fit-content;
+    }
+
+    #hebrides {
+        width: fit-content;
+
+        &>img {
+            margin: 2em 0;
+            width: 80%;
+        }
+
+        &>p {
+            width: fit-content;
+        }
+    }
+
+    #tour-text {
+        width: 90%;
+    }
+
+    #images {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    #castle,
+    #lake,
+    #highlands {
+        &>img {
+            width: 80%;
+        }
+    }
+
+    #foot {
+        grid-template-columns: auto;
+    }
+
+    #foot div {
+        margin: 5% 0;
+        font-size: 1em;
+    }
+
+    #copyright {
+        margin: 2% 0;
+        &>img {
+            width: 50%;
+        }
+    }
+}
+
+/* @media only screen and (min-width:56.4376em) and (max-width:67.4375em) {
+    #images {
+        grid-template-columns: auto auto auto;
+    }
+} */
