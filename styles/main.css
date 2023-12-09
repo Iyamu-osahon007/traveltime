@@ -16,6 +16,16 @@ h1{
     padding: 2% 0;
     font-weight: bold;
 }
+.color-blue{
+    color: #5ed4f8;
+}
+.color-violet{
+    color: #875ef8;
+}
+.color-orange{
+    color: #ec9f0f;
+}
+
 #content{
     width: 90%;
     margin: 0 auto;
