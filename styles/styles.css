@@ -81,6 +81,13 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
 }
+h1{
+    color: white;
+    text-align: center;
+    padding: 2% 0;
+    font-weight: bold;
+}
+
 h4 {
     background-color: var(--ad-background);
     padding: 0.4em 0;
@@ -115,6 +122,23 @@ h4 {
     font-size: 1.2em;
     color: var(--white)
 }
+
+
+.color-green{
+    color: green;
+}
+.color-blue{
+    color: #5ed4f8;
+}
+.color-violet{
+    color: #875ef8;
+}
+.color-orange{
+    color: #ec9f0f;
+}
+
+
+
 
 /* Main content ends here */
 
@@ -177,6 +201,61 @@ h4 {
     color: var(--main-font);
     margin-bottom: 2em;
 }
+
+
+#content{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+}
+#description{
+    width: 90%;
+}
+#first{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5%;
+    margin: 4% 0;
+}
+#itinerary{
+    width: 60%;
+    background-color: rgba(190, 236, 190, 0.295);
+    border: 1px solid green;
+    margin: 2% auto 5% auto;
+}
+
+
+h2{
+    text-align: center;
+    margin: 5% 0;
+}
+ul{
+    line-height: 1.8;
+    margin: 10% 0;
+}
+li {
+    display: block;
+    font-weight: normal;
+    font-size: 1em;
+}
+p{
+    font-weight: normal;
+    line-height: 1.6;
+    font-size: 1em;
+}
+#paragraph{
+    width: 100%;
+    font-size: 1em;
+}
+#second{
+    font-size: 1em;
+}
+#nav ul {
+    font-size: 1em;
+}
+
+
+
 
 /* grid updated by Osahon Iyamu */
 #buttom-container {
@@ -298,7 +377,7 @@ a {
     #main-image h4 {
         margin-top: 9em;
         line-height: 1.5em;
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     #main-content {
@@ -309,7 +388,7 @@ a {
         }
 
         &>p {
-            font-size: 0.8em;
+            font-size: 0.9em;
         }
 
         &>a {
@@ -332,12 +411,12 @@ a {
     }
 
     p {
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
 
     #hebrides p,
     #middle p {
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
 
     #buttom-content {
@@ -347,7 +426,7 @@ a {
     #buttom-container {
         margin-top: 2%;
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         justify-content: center;
     }
 
@@ -369,7 +448,7 @@ a {
     }
 
     #tour-text {
-        width: 90%;
+        width: 100%;
     }
 
     #images {
@@ -391,7 +470,7 @@ a {
 
     #foot div {
         margin: 5% 0;
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     #copyright {
@@ -399,6 +478,28 @@ a {
         &>img {
             width: 50%;
         }
+    }
+
+
+    #section{
+        height: 10vh;
+    } 
+    #content{
+        grid-template-columns: auto;
+    }
+    #description{
+        width: 100%;
+    }
+    #first{
+        grid-template-columns: auto;
+    }
+    #itinerary{
+        margin: 10% 0 10% 0;
+        width: 100%;
+        font-size: 0.9em;
+    }
+    #paragraph{
+        width: 95%;
     }
 }
 
@@ -523,6 +624,51 @@ a {
         margin: 2% 0;
         &>img {
             width: 50%;
+        }
+    }
+
+    #section{
+        height: 15vh;
+    }   
+    #content{
+        grid-template-columns: auto;
+    }
+    p{
+        font-size: 1em;
+    }
+    #description{
+        width: 100%;
+    }
+    #first{
+        grid-template-columns: auto;
+    }
+    #itinerary{
+        margin: 10% auto 10% auto;
+        width: 60%;
+        font-size: 1em;
+    }
+    #paragraph{
+        width: 95%;
+    }
+
+
+    @media only screen and (min-width:56.4376em) and (max-width:86.4376em) {
+        #content{
+            grid-template-columns: auto;
+        }
+        p{
+            font-size: 1.1em;
+        }
+        #description{
+            width: 100%;
+        }
+        #itinerary{
+            margin: 10% auto 10% auto;
+            width: 60%;
+            font-size: 1.1em;
+        }
+        #paragraph{
+            width: 62%;
         }
     }
 }
